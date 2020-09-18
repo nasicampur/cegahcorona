@@ -50,7 +50,7 @@ html {
 	display: inline-block;
 	padding-left: 25px;
 	font-size: 35px;
-	padding-top: 15px;
+	padding-top: 22px;
 	margin: auto;
 	color: #e6f1ff;
 }
@@ -126,7 +126,6 @@ html {
 }
 
 #isi_atas i{
-	padding-top: 4px;
 	margin-left: 8px;
 }
 
@@ -150,6 +149,7 @@ img{
 	}
 
 	#isi_atas{
+		padding-left: 0px;
 		padding-top: 5px;
 	}
 
@@ -170,6 +170,10 @@ img{
 	.isi2{
 		margin-top: 60px;
 	}
+	#isi_atas i{
+		margin-left: 0;
+		margin-right: 8px;
+	}
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
@@ -178,6 +182,7 @@ img{
 	}
 
 	#isi_atas{
+		padding-left: 0px;
 		padding-top: 8px;
 	}
 
@@ -199,6 +204,10 @@ img{
 	.isi2{
 		margin-top: 60px;
 	}
+	#isi_atas i{
+		margin-left: 0;
+		margin-right: 8px;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 960px) {
@@ -207,7 +216,7 @@ img{
 	}
 
 	#isi_atas{
-		display: block;
+		padding-left: 0px;
 		padding-top: 11px;
 	}
 
@@ -227,5 +236,9 @@ img{
 	}
 	.isi2{
 		margin-top: 60px;
+	}
+	#isi_atas i{
+		margin-left: 0;
+		margin-right: 8px;
 	}
 }
