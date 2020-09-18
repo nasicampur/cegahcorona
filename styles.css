@@ -97,6 +97,11 @@ html {
 	font-family: 'Google Sans', sans-serif;
 }
 
+#isi_atas{
+	text-align: left;
+	font-family: 'Ubuntu', sans-serif;
+}
+
 #judul, #judul2 {
 	animation: kedip 5s;
 	font-size: 40px;
@@ -115,9 +120,14 @@ html {
 	text-align: justify;
 }
 
-i{
+#isi_next i{
 	justify-content: center;
-	margin-left: 5px;
+	margin-left: 8px;
+}
+
+#isi_atas i{
+	padding-top: 4px;
+	margin-left: 8px;
 }
 
 img{
@@ -140,7 +150,6 @@ img{
 	}
 
 	#isi_atas{
-		padding-left: 25px;
 		padding-top: 5px;
 	}
 
@@ -151,6 +160,8 @@ img{
 		margin-top: 20px;
 	}
 	.atas{
+		margin: auto;
+		text-align: center;
 		height:7%;
 	}
 	.isi, .isi2, .next, .prev{
@@ -167,7 +178,6 @@ img{
 	}
 
 	#isi_atas{
-		padding-left: 25px;
 		padding-top: 8px;
 	}
 
@@ -179,6 +189,8 @@ img{
 
 	}
 	.atas{
+		margin: auto;
+		text-align: center;
 		height:7%;
 	}
 	.isi, .isi2, .next, .prev{
@@ -196,7 +208,6 @@ img{
 
 	#isi_atas{
 		display: block;
-		padding-left: 25px;
 		padding-top: 11px;
 	}
 
@@ -207,6 +218,8 @@ img{
 		margin-top: 20px;
 	}
 	.atas{
+		margin: auto;
+		text-align: center;
 		height:7%;
 	}
 	.isi, .isi2, .next, .prev{
