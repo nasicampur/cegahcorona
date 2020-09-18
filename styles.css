@@ -4,12 +4,16 @@ html {
 	scroll-behavior: smooth; 
 }
 
-#blok1{
+#blok1, #blok2, #blok3{
 	margin-top: 160px;
 }
 
-#blok2{
-	margin-top: 160px;
+.isi2 .next{
+	margin-top: 90px;
+}
+
+.isi2 #judul2{
+	margin-bottom: 30px;
 }
 
 .warnaHijau{
