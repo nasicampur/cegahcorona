@@ -78,3 +78,10 @@ img{
     width: 100%;
     font-size: 20px;
 }
+.poto table{
+	color: #f1f2f3;
+}
+.poto img{
+		border-radius:50%;
+		height: 230px
+}
