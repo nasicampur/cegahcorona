@@ -39,7 +39,26 @@ html{
     color: #d8232a;
 }
 
-
-#isi_header:active, #isi_header:hover{
+.aktif{
     color: #d8232a;
 }
+
+#isi_header:hover{
+    color: #d8232a;
+}
+
+.main{
+    margin-top: 150px;
+}
+
+.page_main{
+    color: #e6f1ff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.judul_main h1{
+    width: 75%;
+    font-size: 45px;
+}
+
