@@ -41,6 +41,7 @@ html{
     padding-left: 25px;
     display: inline;
     color: #f1f2f3;
+    transition: 0.5s;
 }
 
 .aktif{
@@ -48,7 +49,6 @@ html{
 }
 
 #isi_header:hover{
-    transition: .5s;
     color: #d8232a;
 }
 
@@ -110,14 +110,16 @@ html{
 .isi_main a{
     text-decoration: none;
     color: #d8232a;
+    transition: 0.5s;
 }
 
 .isi_main a:hover{
     color: #e6afb1;
-    transition: 0.5s;
 }
 
 .isi_main img{
+    border: 3px solid #d8232a;
+    margin: 10px 0;
 	width:500px;
 }
 
