@@ -107,19 +107,14 @@ html{
     font-size: 20px;
 }
 
-.isi_main ul ol li p a{
+.isi_main a{
     text-decoration: none;
     color: #d8232a;
 }
 
-.isi_main ul ol li p a:hover{
+.isi_main a:hover{
     color: #e6afb1;
     transition: 0.5s;
-}
-
-.isi_main ul li p a{
-    color:rgb(236, 39, 39);
-    text-decoration: none;
 }
 
 .isi_main img{
@@ -170,6 +165,7 @@ hr{
 }
 
 #tombol:hover{
-	color: white;
-	background-color: #d8232a;
+    color: black;
+    border: 2px solid #e6afb1;
+	background-color: #e6afb1;
 }
