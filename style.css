@@ -43,16 +43,6 @@ html{
     color: #f1f2f3;
 }
 
-#isi_header2{
-    display: inline;
-}
-
-#isi_header2 i{
-    font-size: 50px;
-    padding-top: 10px;
-    color: #d8232a;
-}
-
 .aktif{
     border-bottom: 2px solid #d8232a;
 }
@@ -70,6 +60,7 @@ html{
     color: #f1f2f3;
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 .page_main2{
@@ -87,7 +78,7 @@ html{
     color: #bebebe;
 	background-color: #bebebe;
 	height:1px;
-	border:0
+    border:0;
 }
 
 .judul_main{
@@ -115,6 +106,17 @@ html{
     width: 100%;
     font-size: 20px;
 }
+
+.isi_main ul li p a{
+    text-decoration: none;
+    color: #d8232a;
+}
+
+.isi_main ul li p a:hover{
+    color: #db437d;
+    transition: 0.5s;
+}
+
 .isi_anggota{
     text-align: center;
 }
