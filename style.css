@@ -41,7 +41,6 @@ html{
     padding-left: 25px;
     display: inline;
     color: #f1f2f3;
-    transition: 0.5s;
 }
 
 .aktif{
@@ -49,6 +48,7 @@ html{
 }
 
 #isi_header:hover{
+    transition: .5s;
     color: #d8232a;
 }
 
@@ -110,16 +110,14 @@ html{
 .isi_main a{
     text-decoration: none;
     color: #d8232a;
-    transition: 0.5s;
 }
 
 .isi_main a:hover{
     color: #e6afb1;
+    transition: 0.5s;
 }
 
 .isi_main img{
-    border: 3px solid #d8232a;
-    margin: 10px 0;
 	width:500px;
 }
 
@@ -170,4 +168,18 @@ hr{
     color: black;
     border: 2px solid #e6afb1;
 	background-color: #e6afb1;
+}
+
+.alternatif img {
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.alternatif p {
+    font-size: 20px;
+}
+
+.alternatif ul li {
+    font-size: 20px;
 }
