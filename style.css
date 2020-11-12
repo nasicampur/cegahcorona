@@ -171,17 +171,3 @@ hr{
     border: 2px solid #e6afb1;
 	background-color: #e6afb1;
 }
-
-.alternatif img {
-    width: 500px;
-    height: 300px;
-    font-size: 20px;
-}
-
-.alternatif p {
-    font-size: 20px;
-}
-
-.alternatif ul li {
-    font-size: 20px;
-}
