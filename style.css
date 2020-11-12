@@ -1,8 +1,10 @@
 html{
     background-color: #22272c;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-img{
+#logo{
     padding-top: 8px;
     height: 57px;
     width: 214px;
@@ -38,7 +40,7 @@ img{
     font-size: 19px;
     padding-left: 25px;
     display: inline;
-	color: #f1f2f3;
+    color: #f1f2f3;
 }
 
 #isi_header2{
@@ -52,10 +54,11 @@ img{
 }
 
 .aktif{
-    color: #d8232a;
+    border-bottom: 2px solid #d8232a;
 }
 
 #isi_header:hover{
+    transition: .5s;
     color: #d8232a;
 }
 
@@ -69,24 +72,77 @@ img{
     margin-right: 20%;
 }
 
-.judul_main h1{
-    width: 75%;
-    font-size: 45px;
+.page_main2{
+    border-radius: 2%;
+    height: 350px;
+    text-align: center;
+    color: #f1f2f3;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 8%;
 }
 
-.judul_main .isi_satu{
-    font-size: 17px;
+.page_main2 hr{
+    width: 75%;
+    color: #bebebe;
+	background-color: #bebebe;
+	height:1px;
+	border:0
+}
+
+.judul_main{
+    width: 75%;
+    font-size: 25px;
+}
+
+.judul_main2{
+    font-size: 23px;
+}
+
+.sub_judul_main{
+    width: 50%;
+}
+
+.sub_judul_main p{
+    font-size: 20px;
+}
+
+.sub_judul_main2 p{
+    font-size: 20px;
 }
 
 .isi_main{
     width: 100%;
     font-size: 20px;
 }
-.poto table{
-	color: #f1f2f3;
+.isi_anggota{
+    text-align: center;
 }
-.poto img{
-	border-radius:20%;
-        height: 150px;
-        width: 150px;
+
+.anggota{
+    text-align: center;
+    padding-right: 70px;
+    margin-top: 30px;
+    max-width: 150px;
+    display: inline-block;
+}
+
+.anggota img{
+    width: 130px;
+}
+
+.anggota #nama{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.anggota #nim{
+    font-size: 16px;
+}
+
+hr{
+    color: #bebebe;
+	background-color: #bebebe;
+	height:1px;
+	border:0
 }
