@@ -27,14 +27,6 @@ html{
     margin-right: 20%;
 }
 
-#judul_header{
-    font-weight: 800;
-    position: relative;
-    display: inline;
-    font-size: 35px;
-    color: #f1f2f3;
-}
-
 #isi_header{
     float: right;
     padding-top: 25px;
